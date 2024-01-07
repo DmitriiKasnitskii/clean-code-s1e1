@@ -39,6 +39,7 @@ var createNewTaskElement=function(taskString){
 
     //Each elements, needs appending
     checkBox.type="checkbox";
+    checkBox.className="todo-list-item-check";
     editInput.type="text";
     editInput.className="todo-list-item-text task";
 
